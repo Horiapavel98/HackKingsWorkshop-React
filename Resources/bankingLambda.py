@@ -77,7 +77,7 @@ def handle_session_end_request():
 
 def set_url(bank_function, account):
     #Place IDs here
-    applicationId = ""
+    applicationId = "?key="
     if bank_function is "getaccount":
         url = "/accounts/%s" % account 
         url = url + applicationId
