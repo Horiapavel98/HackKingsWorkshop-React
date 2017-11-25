@@ -1,4 +1,5 @@
 .App {
+  height: 100%;
   text-align: center;
 }
 
@@ -8,21 +9,17 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #38A6DC;
+  padding: 10px;
   color: white;
 }
 
 .App-title {
   font-size: 1.5em;
+  font-weight: 300;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.accounts {
+  display: flex;
+  height: 100%;
 }
